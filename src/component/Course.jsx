@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import { toast } from 'react-toastify'
 import {
     Card,
@@ -40,7 +40,7 @@ function Course({ course, update }) {
             })
     }
 
-    //card display
+    //card display`
     return (
         <Card className='text-center'>
             <CardBody>
